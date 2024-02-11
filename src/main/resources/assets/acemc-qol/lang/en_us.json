@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.acemc-qol.title": "AceMC QoL Mod Configuration",
+  "text.autoconfig.acemc-qol.option.showEntropyGivenMSG": "Show amount of entropy earned messages",
+  "text.autoconfig.acemc-qol.option.showFishCaughtMSG": "Show fish caught messages",
+  "text.autoconfig.acemc-qol.option.showCrabAppearedMSG": "Show crab appearance messages"
+}

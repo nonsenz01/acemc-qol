@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "acemc-qol",
+	"version": "${version}",
+	"name": "AceMC QoL Mod",
+	"description": "A mod that adds some QoL changes specifically made for the AceMC server. Not affiliated with the AceMC server.",
+	"authors": [
+		"nonsenz"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/acemc-qol/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nonsenz.acemcqol.Acemcqol"
+		],
+		"modmenu": [
+			"nonsenz.acemcqol.config.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"modmenu": ">=9.0.0",
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"cloth-config": ">=13.0.121"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
