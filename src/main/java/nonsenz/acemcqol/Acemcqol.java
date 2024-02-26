@@ -25,7 +25,7 @@ public class Acemcqol implements ModInitializer {
 
 			String entropyEarnedMSG = "FISH » You have been given ";
 			String fishCaughtMSG = "FISH » You caught a ";
-			String crabAppearedMSG = "FISH » You fished up a crab!";
+			String crabAppearedMSG = "FISH » You fished up a Crab!";
 
 			if (!config.showEntropyGivenMSG && message.getString().contains(entropyEarnedMSG)) {
 				return false;
